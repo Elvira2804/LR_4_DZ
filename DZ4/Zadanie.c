@@ -35,14 +35,5 @@ int main(void) {
 }
 
 int check(int A_pow, int B_pow, int C_pow) {
-	int result;
-
-	if (A_pow % 3 == 0 && B_pow % 3 == 0 && C_pow % 3 == 0) {
-		result = 1; 
-	}
-	else {
-		result = 0; 
-	}
-
-	return result; 
+	return (A_pow % 3 == 0 && B_pow % 3 == 0 && C_pow % 3 == 0);
 }
